@@ -1,39 +1,39 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import P1 from "../assets/p1.jpg";
+import P2 from "../assets/p2.jpg";
+import P3 from "../assets/p3.jpg";
+import P4 from "../assets/p4.jpg";
+import P5 from "../assets/p5.jpg";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
-    image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    name: 'Bangla Script',
+    image: P1,
+    skills: 'JavaScript, Node, Express, HTML, CSS',
+    github: 'https://github.com/saikatg347/bangla-script'
   },
   {
-    name: "Ecommerce Website",
-    image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    name: 'Squid Game Clone',
+    image: P2,
+    skills: 'JavaScript, Three.js, Blender, HTML, CSS',
+    github: 'https://github.com/saikatg347/squid-game-clone'
   },
   {
-    name: "Spotify Clone",
-    image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    name: 'Digital Voting',
+    image: P3,
+    skills: 'ReactJS, JavaScript, Node, Express, MongoDB',
+    github: 'https://github.com/saikatg347/digital-voting'
   },
   {
-    name: "Social Media Website",
-    image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    name: 'Keyboard Visualizer',
+    image: P4,
+    skills: 'ReactJS, JavaScript, HTML, CSS',
+    github: 'https://github.com/saikatg347/keyboard-visualizer'
   },
   {
-    name: "Dashboard Visualizer",
-    image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    name: 'Hand Detection using Computer Vision',
+    image: P5,
+    skills: 'Python, OpenCV',
+    github: 'https://github.com/saikatg347/HandTrackingProject'
   },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
-];
+]
+

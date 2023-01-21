@@ -7,7 +7,7 @@
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,13 +25,27 @@
   }
   
   .about .prompt {
-    width: 40%;
+    width: 80%;
     font-size: 30px;
   }
   .prompt svg {
     font-size: 60px;
     margin: 5px;
     color: white;
+  }
+
+  .skill-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .skill-icon img {
+    width: 60px;
+  }
+
+  .skill-icon-backend img {
+    width: 80px;
   }
   
   .skills {
@@ -66,15 +80,22 @@
       font-size: 20px;
       width: 80%;
     }
+
+    .skill-container {
+      max-height: 200px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
   
     .skills {
       text-align: center;
     }
+
     .list {
       padding: 0;
     }
   
-    .skills h2 {
+    .skills h3 {
       font-size: 30px;
     }
   }

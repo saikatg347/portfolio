@@ -5,12 +5,14 @@ import {GitHub} from '@mui/icons-material'
 
 const ProjectDisplay = () => {
     const { id } = useParams()
-    const {name, image, skills} = ProjectList[id]
+    const {name, image, skills, github} = ProjectList[id]
     return <div className='project'>
         <h1>{name}</h1>
         <img src={image} alt={name} />
-        <p>Skills: {skills}</p>
-        <GitHub />
+        <p>Technologies used : {skills}</p>
+        <a href={github} target='_blank'>
+            <GitHub />
+        </a>
     </div>
 }
 
